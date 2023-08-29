@@ -1,0 +1,82 @@
+body{
+    background-color:rgb(45, 45, 45);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    background-color: #222242;
+    width: 80%;
+    height: 80vh;
+    text-align: center;
+    display: flex;
+}
+
+
+.intro{
+    background-color:  #222242;
+    width: 60vh;
+    height: 80vh;
+    display: flex;
+    transform: translate(0%,0%);
+    text-align: left;
+}
+
+.info{
+    font-weight: bold;
+    color : aliceblue;
+}
+
+.picture{
+    background-color:#222242;
+    width: 50vh;
+    height: 50vh;
+    display: flex;
+    transform: translate(80%,10%);
+}
+
+.pic{
+    width: 50vh;
+    height: 50vh;
+    border-radius: 35%;
+}
+
+.butt{
+    background-color:rgb(45, 45, 45);
+    width: 20vh;
+    height: 5vh;
+    transform: translate(5vh,73vh);
+    border: black 1px solid;
+    font-weight: bold;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    animation:color-change 3.5s linear infinite;
+    border-radius: 15%;
+    cursor: pointer;
+    font-size: large;
+
+}
+
+
+@keyframes color-change {
+    0%{
+        color:black;
+    }
+    20%{
+        color: magenta;
+    }
+    40%{
+        color: aqua;
+    }
+    60%{
+        color: blue;
+    }
+    80%{
+        color: darkmagenta;
+    }
+    100%{
+        color: black;
+    }
+  }
+
+ 
